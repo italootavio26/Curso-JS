@@ -23,10 +23,13 @@
     <p>Já me livrei da maldição falada sobre o Gustavo Guanabara, que diz que se eu não escrever "olá, mundo!" eu não aprenderia a linguagem tão bem ou não aprenderia nada.</p>
     <!--PARTE DO JAVASCRIPT-->
     <script>
-        window.alert('Olá, Mundo! Minha primeira mensagem em JavaScript!')
-        window.confirm('Está gostande de JS')//Vai dar a opção "ok ou cancelar"
-        window.prompt('Qual é seu nome?') //Vai comentar o nome
-        //Você também pode colocar só a função alert, omitindo o window. exemplo: alert('Olá, Mundo!'), vai funcionar do mesmo jeito.
+        var n1 = Number(window.prompt('digite um número'))
+        var n2 = Number(window.prompt('digite outro número'))
+        var soma = n1 + n2
+        window.alert(`a soma entre ${n1} e ${n2}, é igual a ${soma}`)
+        //o Number vai converter as Stings em Número, ou seja, vai transformar em número e não em texto
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
 </html>

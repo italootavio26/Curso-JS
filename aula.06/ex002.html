@@ -23,10 +23,8 @@
     <p>Já me livrei da maldição falada sobre o Gustavo Guanabara, que diz que se eu não escrever "olá, mundo!" eu não aprenderia a linguagem tão bem ou não aprenderia nada.</p>
     <!--PARTE DO JAVASCRIPT-->
     <script>
-        window.alert('Olá, Mundo! Minha primeira mensagem em JavaScript!')
-        window.confirm('Está gostande de JS')//Vai dar a opção "ok ou cancelar"
-        window.prompt('Qual é seu nome?') //Vai comentar o nome
-        //Você também pode colocar só a função alert, omitindo o window. exemplo: alert('Olá, Mundo!'), vai funcionar do mesmo jeito.
+       var nome = window.prompt('Qual é seu nome?')
+       window.alert('é um grande prazer em te conhecer, ' + nome + '!') //esse + é um sinal de concatenação, ou seja, para juntar!
     </script>
 </body>
 </html>
